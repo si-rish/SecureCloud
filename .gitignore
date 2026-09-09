@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build output
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Uploaded files / local storage
+storage/node-1/*
+storage/node-2/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
